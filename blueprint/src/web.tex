@@ -6,10 +6,17 @@
 
 \documentclass{report}
 
-\usepackage{amssymb, amsthm, amsmath}
+% \usepackage{amssymb, amsthm, amsmath}
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
 \usepackage{hyperref}
-\usepackage[showmore, dep_graph]{blueprint}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.svg,.png,.jpg}
+\usepackage[capitalize]{cleveref}
+\usepackage[showmore,dep_graph, project=../../, dep_by=chapter]{blueprint}
+% \usepackage[showmore, dep_graph]{blueprint}
 
+\usepackage{tikz-cd}
+\usepackage{tikz}
 
 \input{macros/common}
 \input{macros/web}
