@@ -1,9 +1,3 @@
-/* This file contains CSS tweaks for this blueprint.
- * As an example, we included CSS rules that put
- * a vertical line on the left of theorem statements
- * and proofs.
- * */
-
 div.theorem_thmcontent {
 	border-left: .15rem solid black;
 }
