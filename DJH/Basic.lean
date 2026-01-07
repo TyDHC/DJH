@@ -1,4 +1,5 @@
 import Mathlib.Algebra.Group.Defs
+import DJH.DJH_temp1
 
 -- 定义群的类型类
 class MyGroup (G : Type) extends Mul G, One G, Inv G where
