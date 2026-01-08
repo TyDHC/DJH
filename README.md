@@ -10,3 +10,13 @@ This repository contains a template for blueprint-driven formalization projects 
 
 Ensure that you have a functioning Lean 4 installation. If you do not, please follow
 the [Lean installation guide](https://leanprover-community.github.io/get_started.html).
+
+
+
+Useful links:
+
+* [Zulip chat for Lean](https://leanprover.zulipchat.com/) for coordination
+* [Blueprint]({{ site.url }}/blueprint/)
+* [Blueprint as pdf]({{ site.url }}/blueprint.pdf)
+* [Dependency graph]({{ site.url }}/blueprint/dep_graph_document.html)
+* [Doc pages for this repository]({{ site.url }}/docs/)
